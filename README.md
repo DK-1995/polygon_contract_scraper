@@ -5,8 +5,11 @@ Reddit utilizes Polygon blockchain NFTs as the backend for their user avatar sys
 Thus, this project collects metadata and associated media by scraping various sources:
 
 Polygonscan - for upcoming smart contract addresses
+
 Proxy contracts - to extract IPFS hashes pointing to metadata
+
 IPFS networks - to retrieve JSON metadata files
+
 Reddit - to download the avatar images associated with the tokens
 
 By stitching together data from these sources, the scripts build a complete dataset of the tokens (avatars). This is useful as Reddit distributes avatars across hundreds of contracts, making it difficult to view the collections holistically before they are released. 
